@@ -38,7 +38,6 @@ public class GameManager : MonoBehaviour
         tb.Build(extent);
 
         map.Add(zPos, tb);
-        Debug.Log(map[zPos].GetType());
     }
 
     private GameObject GetNextRandomTerrainPrefab(int nextPos)

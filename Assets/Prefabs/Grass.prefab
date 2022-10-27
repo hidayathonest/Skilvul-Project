@@ -139,6 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7407389804522882680}
   - component: {fileID: 5456661450950811996}
+  - component: {fileID: 2983291433872971311}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -176,3 +177,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   main: {fileID: 6244420012711021138}
   repeat: {fileID: 0}
+--- !u!114 &2983291433872971311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7407389804522882663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f01b4c7a4df164289e7038f9c712b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treePrefab: {fileID: 3607467023314845641, guid: a9388f712f9505c4f8250e0f5bafb07a, type: 3}
+  terrain: {fileID: 5456661450950811996}
+  count: 3
