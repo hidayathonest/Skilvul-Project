@@ -15,7 +15,7 @@ public class CarSpawner : MonoBehaviour
     private void Start() 
     {
         isRight = Random.value > 0.5f ? true : false;
-        float timer = Random.Range(minSpawnDuration, maxSpawnDuration);
+        timer = Random.Range(minSpawnDuration, maxSpawnDuration);
     }
 
     private void Update()
